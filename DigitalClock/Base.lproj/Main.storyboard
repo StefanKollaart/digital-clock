@@ -49,10 +49,10 @@
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NT3-OT-7gi">
                                         <rect key="frame" x="8" y="37" width="327" height="29"/>
                                         <segments>
-                                            <segment title="First"/>
-                                            <segment title="Second"/>
-                                            <segment title=""/>
-                                            <segment title=""/>
+                                            <segment title="White"/>
+                                            <segment title="Black"/>
+                                            <segment title="Red"/>
+                                            <segment title="Green"/>
                                         </segments>
                                         <color key="tintColor" red="0.14992923480000001" green="0.16035765799999999" blue="0.35745223450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
@@ -62,10 +62,10 @@
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="o4k-j9-J1m">
                                         <rect key="frame" x="8" y="100" width="327" height="29"/>
                                         <segments>
-                                            <segment title="First"/>
-                                            <segment title="Second"/>
-                                            <segment title=""/>
-                                            <segment title=""/>
+                                            <segment title="Black"/>
+                                            <segment title="White"/>
+                                            <segment title="Yellow"/>
+                                            <segment title="Blue"/>
                                         </segments>
                                         <color key="tintColor" red="0.14992923480000001" green="0.16035765799999999" blue="0.35745223450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
@@ -103,7 +103,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.14992923477999412" green="0.16035765800027332" blue="0.35745223445595853" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="Gpl-KF-oEt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="13D-DF-95k"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gpl-KF-oEt" secondAttribute="bottom" constant="20" id="2e2-BV-mBu"/>

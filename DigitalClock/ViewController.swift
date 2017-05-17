@@ -49,9 +49,28 @@ class ViewController: UIViewController {
     }
     
     @IBAction func textColor(_ sender: Any) {
+        if textColorSeg.selectedSegmentIndex == 0 {
+            label.textColor = UIColor.white
+        } else if textColorSeg.selectedSegmentIndex == 1 {
+            label.textColor = UIColor.black
+        } else if textColorSeg.selectedSegmentIndex == 2 {
+            label.textColor = UIColor.red
+        } else if textColorSeg.selectedSegmentIndex == 3 {
+            label.textColor = UIColor.green
+
+        }
     }
     
     @IBAction func backgroundColor(_ sender: Any) {
+        if backgroundColorSeg.selectedSegmentIndex == 0 {
+            self.view.backgroundColor = UIColor.black
+        } else if backgroundColorSeg.selectedSegmentIndex == 1 {
+            self.view.backgroundColor = UIColor.white
+        } else if backgroundColorSeg.selectedSegmentIndex == 2 {
+            self.view.backgroundColor = UIColor.yellow
+        } else if backgroundColorSeg.selectedSegmentIndex == 3 {
+            self.view.backgroundColor = UIColor.blue
+        }
     }
     
     
