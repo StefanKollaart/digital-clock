@@ -34,8 +34,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gpl-KF-oEt">
-                                <rect key="frame" x="16" y="617" width="343" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="16" y="619" width="343" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="0.747771786971831" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="17"/>
                                 <state key="normal" title="Show Settings">
                                     <color key="titleColor" red="0.14992923480000001" green="0.16035765799999999" blue="0.35745223450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -44,10 +45,10 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YDV-Iu-dUI">
-                                <rect key="frame" x="16" y="461" width="343" height="148"/>
+                                <rect key="frame" x="16" y="463" width="343" height="148"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NT3-OT-7gi">
-                                        <rect key="frame" x="8" y="37" width="327" height="29"/>
+                                        <rect key="frame" x="8" y="36" width="327" height="29"/>
                                         <segments>
                                             <segment title="White"/>
                                             <segment title="Black"/>
@@ -60,7 +61,7 @@
                                         </connections>
                                     </segmentedControl>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="o4k-j9-J1m">
-                                        <rect key="frame" x="8" y="100" width="327" height="29"/>
+                                        <rect key="frame" x="8" y="98" width="327" height="29"/>
                                         <segments>
                                             <segment title="Black"/>
                                             <segment title="White"/>
@@ -73,19 +74,19 @@
                                         </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2n-xd-to6">
-                                        <rect key="frame" x="8" y="70" width="327" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="8" y="69" width="327" height="20"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nJ-KF-36m">
-                                        <rect key="frame" x="8" y="8" width="327" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="8" y="8" width="327" height="20"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="0.74510343309859151" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="0nJ-KF-36m" firstAttribute="top" secondItem="YDV-Iu-dUI" secondAttribute="topMargin" id="GKb-Qh-Ewp"/>
                                     <constraint firstItem="0nJ-KF-36m" firstAttribute="trailing" secondItem="YDV-Iu-dUI" secondAttribute="trailingMargin" id="Gmh-Qt-fQX"/>

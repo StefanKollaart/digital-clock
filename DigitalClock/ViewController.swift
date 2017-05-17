@@ -22,7 +22,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(ViewController.updateTimer), userInfo: nil, repeats: true)
         settingsView.isHidden = true
-        settingsButton.alpha = 0.25
+        settingsButton.alpha = 0.7
+        settingsView.layer.cornerRadius = 5
+        settingsButton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {
