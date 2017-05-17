@@ -12,6 +12,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     var timer = Timer()
+    @IBOutlet weak var settingsView: UIView!
+    @IBOutlet weak var textColorSeg: UISegmentedControl!
+    @IBOutlet weak var backgroundColorSeg: UISegmentedControl!
+    @IBOutlet weak var settingsButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +34,16 @@ class ViewController: UIViewController {
         label.text = timeFormatter.string(from: Date())
     }
 
+    @IBAction func showSettings(_ sender: Any) {
+    }
+    
+    @IBAction func textColor(_ sender: Any) {
+    }
+    
+    @IBAction func backgroundColor(_ sender: Any) {
+    }
+    
+    
 
 }
 
