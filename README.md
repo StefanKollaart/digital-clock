@@ -6,6 +6,3 @@ Build for iOS in Swift.
 
 ## How to run ##
 Clone/download project, open project file in XCode and run in iOS simulator or on your own device.
-
-## Notes ##
-**Build for an Udemy course I'm following.**
